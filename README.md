@@ -66,3 +66,12 @@ Saliency prediction refers to the computational task of modeling overt attention
 </details>
 
   [📄 Paper]([Hierarchical Domain-Adapted Feature Learning for Video Saliency Prediction | International Journal of Computer Vision (springer.com)](https://link.springer.com/article/10.1007/s11263-021-01519-y))| [💻 Code]([perceivelab/hd2s: The official PyTorch implementation for paper "Hierarchical Domain-Adapted Feature Learning for Video Saliency Prediction" (github.com)](https://github.com/perceivelab/hd2s))
+
+### 4. TempSAL - Uncovering Temporal Information for Deep Saliency Prediction（2023 CVPR）
+
+<details span>
+<summary><b>Abstract</b></summary>
+    Deep saliency prediction algorithms complement the object recognition features, they typically rely on additional information such as scene context, semantic relationships, gaze direction, and object dissimilarity. However, none of these models consider the temporal nature of gaze shifts during image observation. We introduce a novel saliency prediction model that learns to output saliency maps in sequential time intervals by exploiting human temporal attention patterns. Our approach locally modulates the saliency predictions by combining the learned temporal maps. Our experiments show that our method outperforms the state- ofthe- art models, including a multi- duration saliency model, on the SALICON benchmark and CodeCharts1k dataset. Our code is publicly available on GitHub1.
+</details>
+
+  [📄 Paper](https://arxiv.org/abs/2301.02315)| [💻 Code]([IVRL/Tempsal (github.com)](https://github.com/IVRL/Tempsal))
